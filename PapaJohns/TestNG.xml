@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Basic Concepts" verbose="1"  thread-count="5" preserve-order="true" parallel="tests" >
+  
+ <listeners>
+
+<!-- <listener class-name="com.framework.utilities.OpenReports"></listener>
+<listener class-name="com.framework.utilities.MailListners"></listener> -->
+
+
+  </listeners>  
+  
+	 <!-- <test name="AlertConcepts firefox" preserve-order="true"> 
+	
+	<parameter name="browserName" value="firefox"></parameter> 
+	<parameter name="environment" value="qa"></parameter>
+	<parameter name="RunMode" value="grid"></parameter> local and grid
+		
+	  <classes>
+	
+	<class name="com.PJOHN.TestCases.PapaJhonesTestCases"></class> 
+	
+	
+							  
+	</classes> 
+	
+	</test> -->
+
+
+ <test name="AlertConcepts chrome" preserve-order="true"> 
+
+<parameter name="browserName" value="chrome"></parameter> 
+<parameter name="environment" value="qa"></parameter>
+<parameter name="RunMode" value="local"></parameter><!--  local and grid -->
+	
+ <classes>
+
+<class name="com.PJOHN.TestCases.PapaJhonesTestCases"></class> 
+
+
+						  
+</classes>
+
+</test>
+
+
+
+</suite> 
+  
+

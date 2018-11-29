@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Basic Concepts]" parallel="tests">
+  <test name="AlertConcepts chrome(failed)" parallel="tests">
+    <parameter name="environment" value="qa"/>
+    <parameter name="RunMode" value="local"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.PJOHN.TestCases.PapaJhonesTestCases">
+        <methods>
+          <include name="PJFranchise"/>
+          <include name="GeneratingReportLogs"/>
+          <include name="PJLaunch"/>
+          <include name="afterEachTest"/>
+          <include name="initialization"/>
+          <include name="PJGrowing"/>
+          <include name="PJLogin"/>
+          <include name="tearDown"/>
+          <include name="PJMessage"/>
+          <include name="PJSchannaterMessage"/>
+          <include name="PJConclusionPage"/>
+          <include name="PJwelcome"/>
+        </methods>
+      </class> <!-- com.PJOHN.TestCases.PapaJhonesTestCases -->
+    </classes>
+  </test> <!-- AlertConcepts chrome(failed) -->
+</suite> <!-- Failed suite [Basic Concepts] -->

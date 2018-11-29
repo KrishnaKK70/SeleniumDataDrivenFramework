@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.PJOHN.TestCases.PapaJhonesTestCases">
+        <methods>
+          <include name="PJFranchise"/>
+          <include name="GeneratingReportLogs"/>
+          <include name="PJLaunch"/>
+          <include name="afterEachTest"/>
+          <include name="initialization"/>
+          <include name="PJGrowing"/>
+          <include name="PJLogin"/>
+          <include name="tearDown"/>
+          <include name="PJMessage"/>
+          <include name="PJSchannaterMessage"/>
+          <include name="PJConclusionPage"/>
+          <include name="PJwelcome"/>
+        </methods>
+      </class> <!-- com.PJOHN.TestCases.PapaJhonesTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
